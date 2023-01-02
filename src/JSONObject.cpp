@@ -1,3 +1,13 @@
+/**
+ * @file JSONObject.cpp
+ * @author Devin Li
+ * @brief C++ Implementation of a JSON Object
+ * @version 0.1
+ * @date 2023-01-02
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #pragma once
 
 #include "JSONObject.h"
@@ -402,7 +412,6 @@ bool JsonObject::equalDouble(JsonObject& a, JsonObject& b) {
   return a.double_ == b.double_;
 }
 
-// TODO: log out in form of JSONStringify
 std::ostream& operator<<(std::ostream& out, JsonObject& rhs) {
   if (rhs.object_type_ == TYPE::OBJECT) {
     if (!rhs.object_.size()) {

@@ -1,3 +1,14 @@
+/**
+ * @file JSONObject.h
+ * @author Devin Li
+ * @brief C++ Implementation of a JSON Object
+ * @version 0.1
+ * @date 2023-01-02
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #pragma once
 #include <iostream>
 #include <string>
